@@ -8,9 +8,9 @@
   "database": "my_pricing",
   "synchronize": false,
   "logging": false,
-  "entities": ["src/database/models/index.ts"],
-  "migrations": ["src/database/migrations/index.ts"],
+  "entities": ["./src/database/models/index.ts"],
+  "migrations": ["./src/database/migrations/index.ts"],
   "cli": {
-    "migrationsDir": "/src/database/migrations"
+    "migrationsDir": "./src/database/migrations"
   }
 }
